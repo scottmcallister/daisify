@@ -1,6 +1,6 @@
 # Daisify
 
-Daisify is a shell script that can be used to easily set up Daisy UI in a new rails application. 
+Daisify is a shell script that can be used to easily set up [Daisy UI](https://daisyui.com/) in a new rails application. 
 
 ## Usage
 
