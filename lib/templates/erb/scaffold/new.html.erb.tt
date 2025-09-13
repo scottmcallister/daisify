@@ -5,5 +5,5 @@
 
   <%%= render "form", <%= singular_table_name %>: @<%= singular_table_name %> %>
 
-  <%%= link_to "Back to <%= human_name.pluralize.downcase %>", <%= index_helper(type: :path) %>, class: "btn btn-neutral" %>
+  <%%= link_to "Back to <%= human_name.pluralize.downcase %>", <%= index_helper(type: :path) %>, class: "btn" %>
 </div>

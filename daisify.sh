@@ -56,4 +56,10 @@ echo "Updating application layout..."
 
 sed -i "s|<html>|<html data-theme=\"$theme\">|g" app/views/layouts/application.html.erb
 
+echo "Copying scaffold templates into project..."
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cp -r "$SCRIPT_DIR/lib/templates" ./lib/
+
 echo "DaisyUI has been added with the '$theme' theme!"
